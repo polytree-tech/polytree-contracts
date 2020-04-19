@@ -1,0 +1,23 @@
+{
+  "name": "erc20token-migrate",
+  "version": "1.0.0",
+  "description": "migration functionality for IERC20 specified tokens",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "scripts/test.sh"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.5",
+    "bn.js": "^5.1.1",
+    "chai": "^4.2.0",
+    "chai-bn": "^0.2.0",
+    "dotenv": "^8.2.0",
+    "ganache-cli": "^6.9.0",
+    "semver": "^7.1.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3-utils": "^1.2.6"
+  }
+}
